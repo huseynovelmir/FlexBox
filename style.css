@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 1440px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*! container 1 container 1 container 1 container 1 container 1 container 1 */
+
+.container {
+  width: 30%;
+  background-color: black;
+  border: 1px solid red;
+  display: flex;
+  margin-top: 30px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+}
+.box-1 {
+  background-color: deeppink;
+}
+.box-2 {
+  background-color: purple;
+}
+.box-3 {
+  background-color: blueviolet;
+}
+.box-4 {
+  background-color: dodgerblue;
+}
+.box-5 {
+  background-color: cyan;
+}
+.box-6 {
+  background-color: green;
+}
+.box-7 {
+  background-color: greenyellow;
+}
+.box-8 {
+  background-color: yellow;
+}
+.box-9 {
+  background-color: chocolate;
+}
+.box-10 {
+  background-color: orangered;
+}
+
+/*! container 2 container 2 container 2 container 2 container 2 container 2 */
+
+.container-2 {
+  justify-content: center;
+}
+
+/*! container 3 container 3 container 3 container 3 container 3 container 3 */
+
+.container-3 {
+  justify-content: flex-end;
+}
+
+/*! container 4 container 4 container 4 container 4 container 4 container 4 */
+
+.container-4 {
+  justify-content: space-around;
+}
+
+/*! container 5 container 5 container 5 container 5 container 5 container 5 */
+
+.container-5 {
+  justify-content: space-between;
+}
+
+/*! container 6 container 6 container 6 container 6 container 6 container 6 */
+
+.container-6 {
+  justify-content: space-evenly;
+}
+/*! container 7 container 7 container 7 container 7 container 7 container 7 */
+
+.container-7 {
+  height: 300px;
+  justify-content: flex-start;
+}
+.container-7 .box {
+  height: 100%;
+}
+
+/*! container 8 container 8 container 8 container 8 container 8 container 8 */
+
+.container-8 {
+  height: 300px;
+  justify-content: flex-start;
+}
+
+.container-8 .box-4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/*! container 9 container 9 container 9 container 9 container 9 container 9 */
+
+.container-9 {
+  align-items: center;
+  padding: 0px 0px 200px 0px;
+}
+
+.container-9 .box-3 {
+  height: 30px;
+}
+.container-9 .box-5 {
+  height: 60px;
+}
+.container-9 .box-7 {
+  height: 20px;
+}
+.container-9 .box-8 {
+  height: 80px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/*! container 10 container 10 container 10 container 10 container 10 container 10 */
+
+.container-10 {
+  height: 300px;
+}
+
+/*! container 11 container 11 container 11 container 11 container 11 container 11 */
+
+.container-11 {
+  height: 300px;
+  align-items: center;
+}
+.container-11 .box {
+  height: 40px;
+}
+
+/*! container 12 container 12 container 12 container 12 container 12 container 12 */
+
+.container-12 {
+  height: 300px;
+  align-items: flex-end;
+}
+
+/*! container 13 container 13 container 13 container 13 container 13 container 13 */
+
+.container-13 {
+  height: 300px;
+}
+.container-13 .box {
+  height: 100%;
+}
+
+.container-13 .box-3 {
+  height: 40px;
+}
+
+/*! container 14 container 14 container 14 container 14 container 14 container 14 */
+
+.container-14 {
+  height: 300px;
+  align-items: center;
+}
+.container-14 .box {
+  height: 100%;
+}
+
+.container-14 .box-3 {
+  height: 40px;
+}
+
+/*! container 15 container 15 container 15 container 15 container 15 container 15 */
+
+.container-15 {
+  height: 300px;
+  align-items: flex-end;
+}
+.container-15 .box {
+  height: 100%;
+}
+
+.container-15 .box-3 {
+  height: 40px;
+}
+
+/*! container 16 container 16 container 16 container 16 container 16 container 16 */
+
+.container-16 {
+  height: 300px;
+  align-items: center;
+}
+.container-16 .box {
+  height: 40px;
+}
+.container-16 .box-3 {
+  height: 100%;
+}
+
+/*! container 17 container 17 container 17 container 17 container 17 container 17 */
+
+.container-17 {
+  height: 300px;
+}
+.container-17 .box {
+  height: 100%;
+}
+.container-17 .box-3 {
+  height: 40px;
+  margin-top: 20px;
+}
+.container-17 .box-4 {
+  height: 70px;
+  font-size: 30px;
+}
+.container-17 .box-5 {
+  height: 30px;
+  margin-top: 30px;
+}
+
+/*! container 18 container 18 container 18 container 18 container 18 container 18 */
+
+.container-18 {
+  height: 300px;
+}
+.container-18 .box {
+  height: 100%;
+}
+
+/*! container 19 container 19 container 19 container 19 container 19 container 19 */
+
+.container-19 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.container-19 .box {
+  width: 33.3%;
+}
+
+/*! container 20 container 20 container 20 container 20 container 20 container 20 */
+
+.container-20 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.container-20 .box {
+  width: 33.3%;
+}
+
+/*! container 21 container 21 container 21 container 21 container 21 container 21 */
+
+.container-21 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.container-21 .box {
+  width: 33.3%;
+}
+
+/*! container 22 container 22 container 22 container 22 container 22 container 22 */
+
+.container-22 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.container-22 .box {
+  width: 33.3%;
+}
+
+/*! container 23 container 23 container 23 container 23 container 23 container 23 */
+
+.container-23 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.container-23 .box {
+  width: 33.3%;
+}
+
+/*! container 24 container 24 container 24 container 24 container 24 container 24 */
+
+.container-24 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+.container-24 .box {
+  width: 33.3%;
+}
+
+/*! container 25 container 25 container 25 container 25 container 25 container 25 */
+
+.container-25 {
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.container-25 .box {
+  width: 33.3%;
+  height: 25%;
+}
